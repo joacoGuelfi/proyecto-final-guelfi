@@ -59,9 +59,10 @@ main h2 {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.marcas{
+    margin-left: 100px;
+}
 .parrafo{
-    display: inline-block;
-    width: 500px;
     font-size: 23px;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -73,6 +74,7 @@ footer{
     background-color: #F07167;
 }
 .locales ul li a{
+    font-weight: bold;
     text-decoration: none;
     color:#1F0812;
     text-transform: uppercase;
@@ -83,15 +85,12 @@ footer img{
     width: 100px;
     padding: 5px;
 }
-footer  ul{
+.redes  ul{
     list-style-type: none;
 }
 .redes ul li{
     display: inline-block;
     margin-right: 3px;
-}
-.redes i{
-    size: 5px;
 }
 
 .productosHombres{

@@ -7,7 +7,8 @@
 .encabezado {
     background-color: #F07167;
     top: 0;
-    height: 110px;
+    border-bottom: #1F0812 1px solid;
+    width: 100%;
 
 }
 .logo{
@@ -15,21 +16,41 @@
     padding: 5px;
 }
 .navbar{
+    margin-top: 20px;
     display: inline-block;
+}
+.nav-item a{
+    font-size: 20px;
+    color: #1F0812;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: white;
 }
 .dropdown-menu{
     background-color: #F07167;
 }
+.btnBuscador{
+    color: #1F0812;
+    font-weight: bold;
+    border: #1F0812 .5px solid;
+    border-radius: 5px;
+}
 .titulo{
     margin-top: 20px;
-    text-align: center;
+    font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-
 }
-
-
+.slider{
+    width: 100%;
+}
 main h2 {
+    text-align: center;
+    font-weight: bold;
     color: #1F0812;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
@@ -47,39 +68,12 @@ main h2 {
     margin-bottom: 20px;
     margin-left: 30px;
 }
-.marcas{
-    width: 200px;
-    height: 150px;
-}
+
 footer h3{
     font-size: 20px;
     padding-bottom: 10px;
 }
-footer{
-    background-color: #F07167;
-    color: #1F0812;
-    height: 100px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
 
-}
-footer img{
-    margin-left: 650px;
-    position: relative;
-    bottom: 70px;
-}
-.redesSociales{
-    list-style-type: none;
-    position: relative;
-    left: 1200px;
-    bottom: 170px;
-}
-.redesSociales li a{
-    text-decoration: none;
-    color: #1F0812;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-}
 
 .productosHombres{
     height: 700px;

@@ -28,39 +28,7 @@
 
 }
 
-.navegador li{
-    display: inline-block;
-}
 
-.navegador a {
-    display: block;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 25px;
-    margin-right: 10px;
-    color: #1F0812;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-}
-.navegador a:hover{
-    color: #BBDB9B;
-}
-.submenu li{
-    display: block;
-    background-color: #F07167;
-}
-.navegador li ul{
-    position: absolute;
-    display: none;
-}
-.navegador li:hover >ul{
-    display: block;
-}
-
-.modelos{
-    width: 600px;
-    height: 200px;
-}
 main h2 {
     color: #1F0812;
     font-size: 30px;

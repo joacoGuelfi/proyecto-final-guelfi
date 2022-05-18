@@ -6,29 +6,28 @@
 
 .encabezado {
     background-color: #F07167;
-    position: sticky;
     top: 0;
     height: 110px;
 
 }
 .logo{
     width: 100px;
+    padding: 5px;
+}
+.navbar{
+    display: inline-block;
+}
+.dropdown-menu{
+    background-color: #F07167;
 }
 .titulo{
-    position: relative ;
-    bottom: 40px;
+    margin-top: 20px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 
 }
-.encabezado nav{
-    position: relative;
-    bottom: 50px;
-    display: inline-block;
-    margin-left: 720px;
-    margin-right: 0;
-}
+
 .navegador li{
     display: inline-block;
 }

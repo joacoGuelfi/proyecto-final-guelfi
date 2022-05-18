@@ -7,37 +7,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito</title>
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <header class="encabezado">
-        <a  href="../index.html"><img  class="logo" src="../images/logo-png.png" alt="logo"></a>
-        <nav>
-            <ul class="navegador">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="hombre.html">Hombre</a>
-                    <ul class="submenu">
-                        <li><a href="#">Remeras</a></li>
-                        <li><a href="#">Buzos</a></li>
-                        <li><a href="#">Camperas</a></li><li><a href="#">Pantalones</a></li>
-                        <li><a href="#">Zapatillas</a></li>
+    <header class="encabezado container-fluid">
+        <!-- LOGO -->
+        <a href="index.html"><img class="logo" src="../images/logo-png.png" alt="logo"></a>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="hombre.html">Hombre</a></li>
+                                <li><a class="dropdown-item" href="mujer.html">Mujer</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Unisex</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="carrito.html">Carrito</a>
+                        </li>
+
                     </ul>
-                </li>
-                <li><a href="mujer.html">Mujer</a> 
-                    <ul class="submenu">
-                        <li><a href="#">Camisas</a></li>
-                        <li><a href="#">Sacos</a></li>
-                        <li><a href="#">Vestidos</a></li><li><a href="#">Pantalones</a></li>
-                        <li><a href="#">Zapatillas</a></li>
-                    </ul>
-                </li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="carrito.html">Carrito</a></li>   
-            </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar por prenda o marca."
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+
+                </div>
+            </div>
         </nav>
-        <h1 class="titulo">Carrito</h1>
-        
+
     </header>
 
     <main class="carro">

@@ -69,8 +69,30 @@ main h2 {
     margin-left: 30px;
 }
 
-
-
+footer{
+    background-color: #F07167;
+}
+.locales ul li a{
+    text-decoration: none;
+    color:#1F0812;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+footer img{
+    width: 100px;
+    padding: 5px;
+}
+footer  ul{
+    list-style-type: none;
+}
+.redes ul li{
+    display: inline-block;
+    margin-right: 3px;
+}
+.redes i{
+    size: 5px;
+}
 
 .productosHombres{
     height: 700px;

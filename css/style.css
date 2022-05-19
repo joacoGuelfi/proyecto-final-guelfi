@@ -151,61 +151,34 @@ form .btn{
     font-weight: bold;
 }
 
-.carro{
-    height: 700px;
-}
+
+/* CARRO.HTML */
+
 .carro img{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 100px;
-    border: 1px black solid;
+    width: 150px;
 }
-.carro .detalle{
-    display: inline-block;
-    width: 500px;
-    height: 100px;
-    border: 1px black solid;
-    background-color: gray;
-    margin-left: 0px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+.carro .titulo{
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #1F0812;
 }
-.carro .precio{
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    border: 1px black solid;
+.carro p{
     background-color: gray;
-    margin-left: 0px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    border: #1F0812 1px solid;
+    padding: 50px;
     text-align: center;
-}
-.carro .tituloUno{
-    display: inline-block;
-    color: #1F0812;
-    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-    margin-left: 400px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.carro .tituloDos{
-    display: inline-block;
+    font-weight: bold;
     color: #1F0812;
-    font-size: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 260px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    
 }
+
+
+
 .prenda{
     height: 700px;
 }

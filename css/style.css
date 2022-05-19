@@ -69,7 +69,7 @@ main h2 {
     margin-bottom: 20px;
     margin-left: 30px;
 }
-
+/* FOOTER */
 footer{
     background-color: #F07167;
 }
@@ -93,55 +93,28 @@ footer img{
     margin-right: 3px;
 }
 
-.productosHombres{
-    height: 700px;
+.productosHM img{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 80px;
+}
+
+.productosHM .btn{
+    background-color: #F07167;
+    width: 70%;
+    margin: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: #F07167 1px solid;
+}
+.productosHM button a{
+    text-decoration: none;
+    color: #1F0812;
+    font-weight: bold;
     width: 100%;
-}
-.productosHombres img{
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 80px;
-}
-/* pretendo utilizar flexbox para una mejor organizacion */
-.productosHombres a{
-    position: relative;
-    top: 30px;
-    right: 250px;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    padding: 3px;
-    border-top: 1px grey solid;
-    border-left: 1px gray solid;
-    border-right: 2px gray solid;
-    border-bottom: 2px gray solid;
-}
-.productosMujeres{
-    height: 700px;
-}
-.productosMujeres img{
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 80px;
-}
-.productosMujeres a{
-    position: relative;
-    top: 30px;
-    right: 250px;
-    text-decoration: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    padding: 3px;
-    border-top: 1px black solid;
-    border-left: 1px black solid;
-    border-right: 2px black solid;
-    border-bottom: 2px black solid;
 }
 
 .us p{

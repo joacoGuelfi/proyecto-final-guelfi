@@ -102,7 +102,7 @@ footer img{
 }
 
 .productosHM .btn{
-    background-color: #F07167;
+    background-color: #1F0812;
     width: 70%;
     margin: 5%;
     font-family: 'Josefin Sans', sans-serif;
@@ -112,7 +112,7 @@ footer img{
 }
 .productosHM button a{
     text-decoration: none;
-    color: #1F0812;
+    color: #F07167;
     font-weight: bold;
     width: 100%;
 }
@@ -142,6 +142,15 @@ form{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
+form .btn{
+    background-color: #1F0812;
+    color: #F07167;
+    border: #1F0812 1px solid;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
 .carro{
     height: 700px;
 }

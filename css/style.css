@@ -147,6 +147,11 @@ form .btn{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
+form .btn:hover{
+    background-color: #F07167;
+    color: #1F0812;
+    border: #1F0812 1px solid;
+}
 
 
 /* CARRO.HTML */
@@ -174,25 +179,16 @@ form .btn{
     
 }
 
+/* PRENDA.HTML */
 
 
-.prenda{
-    height: 700px;
-}
-.prenda img{
-    width: 350px;
-    height: 400px;
-    margin-left: 100px;
-}
+
 .prenda p{
-    display: inline-block;
-    width: 300px ;
-    height: 200px;
     border: 1px black solid;
     font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
-    margin-left: 260px;
+    
 }
 .prenda a{
     position: relative;

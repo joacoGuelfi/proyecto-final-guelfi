@@ -61,7 +61,7 @@
 
                     </ul>
 
-                    <form class="d-flex" role="search">
+                    <form class="d-flex mb-3" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar por prenda o marca."
                             aria-label="Search">
                         <button class="btnBuscador btn btn-outline-success" type="submit">Buscar</button>
@@ -75,13 +75,75 @@
 
     <main class="prenda">
         <h2>Remera Negra</h2>
-        <img src="../images/remera_1.jpg" alt="">
-        <!-- No encontre manera de identar el paraffo que me permita agragar saltos de linea y sangrias. Mismo problema que en carrito.html -->
-        <p>Remera Negra ----------------
-            Talles: S / M / L / XL / XXL
-            Precio: $2000
-        </p>
-        <a href="carrito.html">Comprar</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-dark"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="text-center">
+                                    <img src="../images/remera_1.jpg" class=" w-75 ps-5 pe-5" alt="...">
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/remera_2.jpg" class=" w-75 ps-5 pe-5" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text-center">
+                                    <img src="../images/ropa-de-mujer.jpg" class=" w-75 ps-5 pe-5" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <h3 class="p-2 mb-2">Remera Negra</h3>
+                    <h3 class="p-2 mb-2">$5.000</h3>
+
+                    <div class="container-fluid">
+                        <h4>Talles</h4>
+                        <div class="d-flex">
+                            <div>
+                                <p class="p-1 m-1">XS</p>
+                            </div>
+                            <div>
+                                <p class="p-1 m-1">S</p>
+                            </div>
+                            <div>
+                                <p class="p-1 m-1">M</p>
+                            </div>
+                            <div>
+                                <p class="p-1 m-1">L</p>
+                            </div>
+                            <div>
+                                <p class="p-1 m-1">XL</p>
+                            </div>
+                            <div>
+                                <p class="p-1 m-1">XXL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet neque recusandae explicabo aliquam
+                        totam magnam culpa sequi consequuntur pariatur placeat atque vero, saepe quisquam hic, aliquid
+                        ab, eius optio quo.</p>
+                </div>
+            </div>
+        </div>
     </main>
 
 

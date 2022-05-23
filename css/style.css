@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* ESTILO DEL NAVBAR */
 .encabezado {
     background-color: #F07167;
     top: 0;
@@ -14,10 +15,6 @@
 .logo{
     width: 100px;
     padding: 5px;
-}
-.navbar{
-    margin-top: 20px;
-    display: inline-block;
 }
 .nav-item a{
     font-size: 20px;
@@ -39,6 +36,12 @@
     border: #1F0812 .5px solid;
     border-radius: 5px;
 }
+.btnBuscador:hover{
+    color: black;
+    background-color: #F07167;
+}
+
+
 .titulo{
     margin-top: 20px;
     font-weight: bold;
@@ -59,9 +62,7 @@ main h2 {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.marcas{
-    margin-left: 100px;
-}
+
 .parrafo{
     font-size: 23px;
     font-family: 'Josefin Sans', sans-serif;
@@ -92,19 +93,15 @@ footer img{
     display: inline-block;
     margin-right: 3px;
 }
-
+/* PRODUCTOS.HTML */
 .productosHM img{
     width: 200px;
     height: 200px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 80px;
 }
 
 .productosHM .btn{
     background-color: #1F0812;
-    width: 70%;
-    margin: 5%;
+    width: 65%;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;

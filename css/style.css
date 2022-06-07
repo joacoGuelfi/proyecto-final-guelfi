@@ -139,7 +139,8 @@ form {
 
 /* CARRO.HTML */
 .carro img {
-  width: 150px; }
+  max-width: 40%;
+  text-align: center; }
 
 .carro .titulo {
   text-align: center;
@@ -151,13 +152,13 @@ form {
 .carro p {
   background-color: gray;
   border: #1F0812 1px solid;
-  padding: 50px;
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color: #1F0812;
-  font-size: 1.5rem; }
+  font-size: 1rem;
+  padding: 10px; }
 
 /* PRENDA.HTML */
 .prenda p {

@@ -85,6 +85,11 @@ footer {
     margin-right: 3px; }
 
 /* PRODUCTOS.HTML */
+.productosHM .cartas {
+  border: #301a23 2px solid;
+  border-radius: 5px;
+  padding: 10px; }
+
 .productosHM img {
   width: 200px;
   height: 200px; }
@@ -96,6 +101,8 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   border: #F07167 1px solid; }
+  .productosHM .btn:hover {
+    background-color: #301a23; }
 
 .productosHM button a {
   text-decoration: none;
@@ -166,6 +173,9 @@ form {
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Raleway', sans-serif; }
+  .prenda p:hover {
+    color: antiquewhite;
+    background-color: #16050c; }
 
 .prenda a {
   position: relative;
@@ -180,3 +190,11 @@ form {
   border-left: 1px black solid;
   border-right: 2px black solid;
   border-bottom: 2px black solid; }
+
+.prenda .btn {
+  background-color: #301a23;
+  color: #F07167;
+  border: #F07167 1px solid; }
+  .prenda .btn:hover {
+    background-color: #975b57;
+    color: #1F0812; }

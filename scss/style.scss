@@ -110,6 +110,11 @@ footer {
 
 /* PRODUCTOS.HTML */
 .productosHM {
+	.cartas{
+		border: #301a23 2px solid;
+		border-radius: 5px;
+		padding: 10px;
+	}
 	img {
 		width: 200px;
 		height: 200px;
@@ -121,6 +126,9 @@ footer {
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
 		border: #F07167 1px solid;
+		&:hover{
+			background-color: #301a23;
+		}
 	}
 	button {
 		a {
@@ -208,6 +216,10 @@ form {
 		font-size: 20px;
 		font-family: 'Josefin Sans', sans-serif;
 		font-family: 'Raleway', sans-serif;
+		&:hover{
+			color: antiquewhite;
+			background-color: #16050c;
+		}
 	}
 	a {
 		position: relative;
@@ -222,6 +234,15 @@ form {
 		border-left: 1px black solid;
 		border-right: 2px black solid;
 		border-bottom: 2px black solid;
+	}
+	.btn{
+		background-color:#301a23 ;
+		color: #F07167;
+		border: #F07167 1px solid;
+		&:hover{
+			background-color: #975b57;
+			color: #1F0812;
+		}
 	}
 }
 

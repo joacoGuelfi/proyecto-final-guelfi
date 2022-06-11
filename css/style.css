@@ -173,9 +173,10 @@ form {
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Raleway', sans-serif; }
-  .prenda p:hover {
-    color: antiquewhite;
-    background-color: #16050c; }
+
+.prenda .talle:hover {
+  color: antiquewhite;
+  background-color: #16050c; }
 
 .prenda a {
   position: relative;

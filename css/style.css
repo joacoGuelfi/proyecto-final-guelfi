@@ -145,27 +145,37 @@ form {
       border: #1F0812 1px solid; }
 
 /* CARRO.HTML */
-.carro img {
-  max-width: 40%;
-  text-align: center; }
+.carro .cajaGrande {
+  margin-top: 20px; }
 
-.carro .titulo {
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  color: #1F0812; }
+.carro .compras {
+  background-color: #ca9894;
+  border: #301a23 1px solid; }
+  .carro .compras .itemEnCarro {
+    padding: 20px; }
+    .carro .compras .itemEnCarro img {
+      width: 100px;
+      height: 100px;
+      padding: 10px; }
+    .carro .compras .itemEnCarro p {
+      display: inline-block;
+      margin-top: 30px;
+      color: #1F0812;
+      font-weight: bold;
+      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Raleway', sans-serif; }
+    .carro .compras .itemEnCarro .modalEliminar {
+      margin-top: 30px;
+      background-color: #301a23;
+      color: #F07167;
+      border: #F07167 1px solid; }
+      .carro .compras .itemEnCarro .modalEliminar:hover {
+        background-color: #975b57;
+        color: #1F0812; }
 
-.carro p {
-  background-color: gray;
-  border: #1F0812 1px solid;
-  text-align: center;
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  color: #1F0812;
-  font-size: 1rem;
-  padding: 10px; }
+@media (max-width: 600px) {
+  .colOculta {
+    display: none; } }
 
 /* PRENDA.HTML */
 .prenda p {

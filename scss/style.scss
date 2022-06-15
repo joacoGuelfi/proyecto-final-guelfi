@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Raleway:ital,wght@1,200&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -12,10 +13,12 @@
 	border-bottom: #1F0812 1px solid;
 	width: 100%;
 }
+
 .logo {
 	width: 100px;
 	padding: 5px;
 }
+
 .nav-item {
 	a {
 		font-size: 20px;
@@ -23,19 +26,23 @@
 		font-family: 'Josefin Sans', sans-serif;
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
+
 		&:hover {
 			color: white;
 		}
 	}
 }
+
 .dropdown-menu {
 	background-color: #F07167;
 }
+
 .btnBuscador {
 	color: #1F0812;
 	font-weight: bold;
 	border: #1F0812 .5px solid;
 	border-radius: 5px;
+
 	&:hover {
 		color: black;
 		background-color: #F07167;
@@ -50,9 +57,11 @@
 	font-family: 'Josefin Sans', sans-serif;
 	font-family: 'Raleway', sans-serif;
 }
+
 .slider {
 	width: 100%;
 }
+
 main {
 	h2 {
 		text-align: center;
@@ -66,6 +75,7 @@ main {
 		margin-bottom: 20px;
 	}
 }
+
 .parrafo {
 	font-size: 23px;
 	font-family: 'Josefin Sans', sans-serif;
@@ -78,11 +88,13 @@ main {
 /* FOOTER */
 footer {
 	background-color: #F07167;
+
 	img {
 		width: 100px;
 		padding: 5px;
 	}
 }
+
 .locales {
 	ul {
 		li {
@@ -97,9 +109,11 @@ footer {
 		}
 	}
 }
+
 .redes {
 	ul {
 		list-style-type: none;
+
 		li {
 			display: inline-block;
 			margin-right: 3px;
@@ -110,15 +124,17 @@ footer {
 
 /* PRODUCTOS.HTML */
 .productosHM {
-	.cartas{
+	.cartas {
 		border: #301a23 2px solid;
 		border-radius: 5px;
 		padding: 10px;
 	}
+
 	img {
 		width: 200px;
 		height: 200px;
 	}
+
 	.btn {
 		background-color: #1F0812;
 		width: 65%;
@@ -126,10 +142,12 @@ footer {
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
 		border: #F07167 1px solid;
-		&:hover{
+
+		&:hover {
 			background-color: #301a23;
 		}
 	}
+
 	button {
 		a {
 			text-decoration: none;
@@ -151,20 +169,24 @@ footer {
 		margin-bottom: 20px;
 		margin-left: 10px;
 	}
+
 	iframe {
 		width: 600px;
 		height: 300px;
 	}
 }
+
 .formYmap {
 	margin-top: 30px;
 }
+
 form {
 	margin-top: 20px;
 	color: #1F0812;
 	font-weight: bold;
 	font-family: 'Josefin Sans', sans-serif;
 	font-family: 'Raleway', sans-serif;
+
 	.btn {
 		background-color: #1F0812;
 		color: #F07167;
@@ -172,6 +194,7 @@ form {
 		font-family: 'Josefin Sans', sans-serif;
 		font-family: 'Raleway', sans-serif;
 		font-weight: bold;
+
 		&:hover {
 			background-color: #F07167;
 			color: #1F0812;
@@ -183,30 +206,52 @@ form {
 
 /* CARRO.HTML */
 .carro {
-	img {
-		max-width: 40%;
-		text-align: center;
+	.cajaGrande {
+		margin-top: 20px;
 	}
-	.titulo {
-		text-align: center;
-		font-family: 'Josefin Sans', sans-serif;
-		font-family: 'Raleway', sans-serif;
-		font-weight: bold;
-		color: #1F0812;
-	}
-	p {
-		background-color: gray;
-		border: #1F0812 1px solid;
-		text-align: center;
-		font-family: 'Josefin Sans', sans-serif;
-		font-family: 'Raleway', sans-serif;
-		font-weight: bold;
-		color: #1F0812;
-		font-size: 1rem;
-		padding: 10px;
+
+	.compras {
+		background-color: #ca9894;
+		border: #301a23 1px solid;
+
+		.itemEnCarro {
+			padding: 20px;
+			img {
+				width: 100px;
+				height: 100px;
+				padding: 10px;
+			}
+
+			p {
+				display: inline-block;
+				margin-top: 30px;
+				color: #1F0812;
+				font-weight: bold;
+				font-family: 'Josefin Sans', sans-serif;
+				font-family: 'Raleway', sans-serif;
+
+			}
+
+			.modalEliminar {
+				margin-top: 30px;
+				background-color: #301a23;
+				color: #F07167;
+				border: #F07167 1px solid;
+
+				&:hover {
+					background-color: #975b57;
+					color: #1F0812;
+				}
+			}
+			
+		}
 	}
 }
-
+@media (max-width: 600px) {
+	.colOculta {
+	  display: none;
+	}
+  }
 
 
 /* PRENDA.HTML */
@@ -217,12 +262,14 @@ form {
 		font-family: 'Josefin Sans', sans-serif;
 		font-family: 'Raleway', sans-serif;
 	}
-	.talle{
-		&:hover{
+
+	.talle {
+		&:hover {
 			color: antiquewhite;
 			background-color: #16050c;
 		}
 	}
+
 	a {
 		position: relative;
 		top: 180px;
@@ -237,15 +284,15 @@ form {
 		border-right: 2px black solid;
 		border-bottom: 2px black solid;
 	}
-	.btn{
-		background-color:#301a23 ;
+
+	.btn {
+		background-color: #301a23;
 		color: #F07167;
 		border: #F07167 1px solid;
-		&:hover{
+
+		&:hover {
 			background-color: #975b57;
 			color: #1F0812;
 		}
 	}
 }
-
-

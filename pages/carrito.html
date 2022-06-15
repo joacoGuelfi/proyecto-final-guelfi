@@ -79,49 +79,176 @@
     <main class="carro">
         <div class="container-fluid cajaGrande">
             <div class="row">
-                <div class="text-center col-lg-4 col-md-4 col-sm-12">
-                    <h3 class="titulo">Objeto</h3>
-                    <img src="../images/remera_1.jpg" alt="articulo-agrgado">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <h3 class="titulo">Detalle</h3>
-                    <p class="detalle">remera blanca</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <h3 class="titulo">Precio</h3>
-                    <p class="precio">1200</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="text-center col-lg-4 col-md-4 col-sm-12">
-                
-                    <img src="../images/remera_1.jpg" alt="articulo-agrgado">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    
-                    <p class="detalle">remera blanca</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                
-                    <p class="precio">1200</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="text-center col-lg-4 col-md-4 col-sm-12">
-                
-                    <img src="../images/remera_1.jpg" alt="articulo-agrgado">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    
-                    <p class="detalle">remera blanca</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                
-                    <p class="precio">1200</p>
-                </div>
-            </div>
-        </div>
+                <div class="col-1"></div>
+                <div class="col-10 compras">
+                    <!-- Renglones -->
+                    <div class="row">
+                        <div class="col-6">Producto</div>
+                        <div class="col-2 colOculta">Cantidad</div>
+                        <div class="col-2">Precio</div>
+                        <div class="col-2"></div>
+                    </div>
+                    <!-- Dos -->
+                    <div class="row itemEnCarro">
+                        <div class="col-6">
+                            <img src="../images/remera_1.jpg" alt="compraUno">
+                            <p>Remera de algodon. Color Blanco. Adidas</p>
+                        </div>
+                        <div class="col-2 colOculta">
+                            <p>1</p>
+                        </div>
+                        <div class="col-2">
+                            <p>$3.000</p>
+                        </div>
+                        <div class="col-2 modalCarro">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary align-middle modalEliminar"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Eliminar
+                            </button>
 
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Exito!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Se elimino el producto satifactoriamente del carrito.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Continuar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tres -->
+                    <div class="row itemEnCarro">
+                        <div class="col-6">
+                            <img src="../images/remera_1.jpg" alt="compraUno">
+                            <p>Remera de algodon. Color Blanco. Adidas</p>
+                        </div>
+                        <div class="col-2 colOculta">
+                            <p>1</p>
+                        </div>
+                        <div class="col-2">
+                            <p>$3.000</p>
+                        </div>
+                        <div class="col-2 modalCarro">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary align-middle modalEliminar"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Eliminar
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Exito!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Se elimino el producto satifactoriamente del carrito.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Continuar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cuatro -->
+                    <div class="row itemEnCarro">
+                        <div class="col-6">
+                            <img src="../images/remera_1.jpg" alt="compraUno">
+                            <p>Remera de algodon. Color Blanco. Adidas</p>
+                        </div>
+                        <div class="col-2 colOculta">
+                            <p>1</p>
+                        </div>
+                        <div class="col-2">
+                            <p>$3.000</p>
+                        </div>
+                        <div class="col-2 modalCarro">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary align-middle modalEliminar"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Eliminar
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Exito!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Se elimino el producto satifactoriamente del carrito.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Continuar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cinco -->
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-2 colOculta"></div>
+                        <div class="col-2"></div>
+                        <div class="col-2">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary align-middle modalEliminar"
+                                data-bs-toggle="modal" data-bs-target="#modalDos">
+                                Comprar
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalDos" tabindex="-1" aria-labelledby="modalDosLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalDosLabel">Exito!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Felicitaciones! Su pedido llegara a su domicilio en las proximas 48 horas habiles. Gracias por su compra !
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Continuar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-1"></div>
+            </div>
 
     </main>
 
